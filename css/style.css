@@ -1,0 +1,60 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+
+header {
+	background-color: rgba(35, 0, 55, 0.3);
+	padding:3px;
+	margin:2px;
+	border: 3px solid rgb(0,0,0);
+	h1, h2 {
+		font-size: 2em;
+		font-family:"Lucida Console", "Courier New", sans-serif;
+	    line-height: 1.4em;
+	}
+}
+
+
+body {
+	font-family: FONT FAMILY, serif/sans-serif;
+	background-color: rgba(82, 78, 183, 0.3);
+	color:rgb(255, 255, 255);
+	margin:2px;
+}
+
+
+footer {
+	font-size: .75em;
+	font-family: Calibri, Candara, Segoe, Optima, sans-serif;
+    line-height: 1.4em;
+	background-color: rgba(255, 0, 0, 0.3);
+	border: 3px solid rgb(0,0,0);
+	margin: 2px;
+}
+
+
+div#container {
+	width:80%;
+	margin: 0 auto;
+	padding:10px;
+	border: 1px solid rgb(0,0,0);
+	background-color: rgba(255, 0, 55, 0.3);
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
